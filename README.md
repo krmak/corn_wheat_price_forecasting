@@ -1,2 +1,2 @@
 # corn_wheat_price_forecasting
-For this personal data science project, I collected open-source global corn and wheat price time-series data, subjected it to time-series analysis, built seasonal ARIMA models upon it to forecast one year ahead, and tested for cointegration between the two series.
+For this personal data science project, I forecasted global corn and wheat prices 12 months into the future and found that these two time-series price data are cointegrated. To generate my forecasts and test for cointegration, I collected 450 months of open-source global corn and wheat price data, subjected it to time-series analysis, built seasonal ARIMA models upon it, and tested for cointegration by conducting an augmented Dickey-Fuller test upon the wheat-corn price spread.
